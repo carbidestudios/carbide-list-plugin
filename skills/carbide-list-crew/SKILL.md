@@ -9,9 +9,9 @@ A crew member, usually a foreman, connects Carbide List with the Crew link their
 
 ## Start every conversation the same way
 
-1. Call `get_connection_context`. If `authority.kind` is not `crew`, use the carbide-list-builder skill instead.
+1. Call `get_connection_context`. If its `authority.authority.kind` is not `crew`, use the carbide-list-builder skill instead.
 2. Read the `guide` it returns and follow it. It outranks this skill.
-3. Reply in the language the person writes in, and pass `language` (`en` or `es`) on reads and writes.
+3. Reply in the language the person writes in. Pass `language` (`en` or `es`) to `get_punch_list` and to the tools that store text: `add_note`, `set_blocker`, `mark_ready_for_review`, and `withdraw_ready_for_review`.
 
 Keep answers short. The person is often on a job site, on a phone.
 

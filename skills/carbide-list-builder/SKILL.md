@@ -9,7 +9,7 @@ Carbide List is a punch-list app for home builders, their crews, and homeowners.
 
 ## Start every conversation the same way
 
-1. Call `get_connection_context`. If `authority.kind` is `crew`, use the carbide-list-crew skill instead.
+1. Call `get_connection_context`. If its `authority.authority.kind` is `crew`, use the carbide-list-crew skill instead.
 2. Read the `guide` it returns and follow it. It is the complete, current rulebook for this connection and outranks this skill.
 3. Call `get_portfolio` to see the houses. Every house tool takes that house's `projectId`.
 
