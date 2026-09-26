@@ -1,0 +1,10 @@
+{
+  "name": "carbide-list",
+  "displayName": "Carbide List",
+  "version": "0.1.0",
+  "description": "Work with your Carbide List punch lists from Claude. Builders see what is open, ready for review, and blocked across their houses and turn walkthrough notes into items. Foremen connect with their Crew link to check their houses, track what they are waiting on, and report finished work, in English or Spanish.",
+  "author": { "name": "Carbide Studios", "url": "https://carbidelist.com" },
+  "homepage": "https://carbidelist.com",
+  "license": "MIT",
+  "keywords": ["punch list", "construction", "home builder", "crew", "field work"]
+}

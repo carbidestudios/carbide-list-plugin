@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "carbide-list": {
+      "type": "http",
+      "url": "https://app.carbidelist.com/mcp/portfolio"
+    }
+  }
+}
